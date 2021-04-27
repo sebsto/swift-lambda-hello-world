@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.4
 
 import PackageDescription
 
@@ -16,7 +16,7 @@ let package = Package(
 
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "swift-demo",
             dependencies: [
                 .product(name: "AWSLambdaRuntime", package: "swift-aws-lambda-runtime"),
